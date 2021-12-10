@@ -23,6 +23,28 @@ if (!isset($_SESSION['name'])) {
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <link href="assets/index/css/styles.css" rel="stylesheet" />
+
+        <style>
+
+table
+
+{
+
+width: 400px;
+
+margin-left: auto; 
+margin-right: auto;
+}
+
+th {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+</style>
     </head> 
 
 <body>
@@ -33,9 +55,48 @@ if (!isset($_SESSION['name'])) {
                 <div class="card">
                 <div class="card-body">
                 <h3 class="card-title"> Welcome - <?php echo $_SESSION['name']?></h3>
-                <h4>First of all, thank you so much for expressing your interest in adopting one of FOA kids. We appreciate</h4>
+                <h4>First of all, thank you so much for expressing your interest in adopting one of FOA kids.</h4>
 
-                <h6>However, we have no kids available for adoption, they are all adopted. <br> But don't worry, we have your information we will alert you when we recruit other kids from  the street. <h6> 
+                <h6> Below are the Kids available for adoption, you can feel free to choose </h6> 
+
+<table>
+  <tr>
+    <th>name</th>
+    <th>age</th>
+    <th>status</th>
+    <th>origin</th>
+  </tr>
+
+  <tr>
+    <td>Irigenera Tiffa</td>
+    <td>25</td>
+    <td>available</td>
+    <td>Togo</td>
+  </tr>
+
+  <tr>
+    <td>Betty Johnson</td>
+    <td>17</td>
+    <td>available</td>
+    <td>Ghana</td>
+  </tr>
+
+  <tr>
+    <td>Emme Gihozo</td>
+    <td>19</td>
+    <td>available</td>
+    <td>Togo</td>
+  </tr>
+
+  <tr>
+    <td>Gaju Manzi</td>
+    <td>21</td>
+    <td>available</td>
+    <td>Ghana</td>
+  </tr>
+</table>
+
+
                  <div> <a href="logout.php" class="btn btn-primary">Logout</a> </div>
                 </div>
             </div>

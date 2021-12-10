@@ -57,6 +57,7 @@ if (isset($_SESSION['name'])) {
     die;
 }
 
+
 if (isset($_POST['signup'])) {
 	$name = $_POST['name'];
 	$email = $_POST['email'];
@@ -114,7 +115,7 @@ if (isset($_POST['signup'])) {
                                                     
                                                 </div> 
                         
-                                            
+                        
                                                 <div class="mb-3">
                                                     <label class="fw-semibold" for="userpassword">Password</label>
                                                     <input type="password" class="form-control" id="userpassword" placeholder="Enter password" name="password" value="<?php echo $_POST['password']; ?>" required>       

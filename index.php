@@ -56,41 +56,7 @@
         </section>
 
         <footer class="bg-light py-5">
-
-            <!-- footer part-->
-  <div  id="Contact">
-    <h1>Contact Us <br><br></h1>
-    <div class="footerDetails">
-      <div class="foot1">
-        <h2><span>Our Address</span></h2>
-        <p>East legon, Norviwo center</p>
-        <p>Greator Accra</p>
-      </div>
-
-      <div class="foot1">
-        <h2><span>Email & Phone</span></h2>
-        <p>+233 245627336</p> 
-        <p>interactwith@foa.org</p>
-      </div>
-
-      <div class="foot1">
-            <h1><input type="subs" type="Subscribe" name="" placeholder="Your Email address">
-              <a href="#"><button class="btn">Subscribe</button></a></h1>
-        <a href="https://www.facebook.com/futureofafrica/"><ion-icon name="logo-facebook"></ion-icon></a>
-        <a href="https://twitter.com/futureofafrica"><ion-icon name="logo-twitter"></ion-icon></a>
-        <a href="https://www.linkedin.com/company/futureofafrica/about/"><ion-icon name="logo-linkedin"></ion-icon></a>
-        <a href="https://www.instagram.com/futureofafrica/"><ion-icon name="logo-instagram"></ion-icon></a>
-        <a href="#"><ion-icon name="logo-medium"></ion-icon></a>
-      </div>
-
-    </div>
-
-    <div class="footerDetails">
-      <div class="foot2">
-      <img src="logo1.png" alt="Footer Logo" width="100" height="100"/>
-    </div>
-
-    </div>
+   
  
         <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2021 - future-of-africa. All rights reserved.</div></div>
         </footer>
